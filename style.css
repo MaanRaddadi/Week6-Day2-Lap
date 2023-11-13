@@ -1,0 +1,31 @@
+body {
+  background-color: #e8e9ef !important;
+  font-family: "Inter", sans-serif !important;
+}
+.card {
+  display: flex !important;
+  justify-content: space-evenly !important;
+  align-items: center !important;
+}
+.card-img-top {
+  max-width: 150px !important;
+  object-fit: contain !important;
+  height: 270px !important;
+  object-position: center !important;
+}
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+.card-title,
+.price {
+  text-align: left !important;
+}
+.card-title {
+  font-weight: 700 !important;
+}
+.card-body {
+  width: 100% !important;
+}
+.price {
+  font-weight: 400 !important;
+}
